@@ -1,0 +1,58 @@
+body {
+    overflow-x: hidden;
+}
+
+.topo {
+    padding: 0.3em 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.7em;
+}
+
+.user__icon {
+    width: 21px;
+}
+
+.menu {
+    justify-content: center;
+    padding: 2em;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.link:hover {
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.116);
+    font-weight: bolder;
+}
+
+.foot {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    background-color: white;
+}
+
+.foot__itens {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}

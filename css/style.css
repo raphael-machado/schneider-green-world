@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    overflow-x: hidden;
+}
+
+.white-icon-on-hover:hover .bi {
+    color: white;
+}
+
+.img__topo {
+    filter: brightness(0.5);
+}
+
+
+
+.banner__desc {
+    color: white;
+    font-size: 30px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.banner__itens {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerTotal {
+    font-size: 250px;
+}
+
+.btns {
+    margin-top: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.btn1 {
+    background-color: rgb(74, 74, 247);
+    padding: 1.3em;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn1:hover {
+    background-color: rgb(89, 89, 247);
+}
+
+.btn2 {
+    color: white;
+    padding: 1.3em;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-weight: 600;
+
+}
+
+.btn2:hover {
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    gap: 1em;
+}
+
+.app__texto1 {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.app__texto1 h2 {
+    font-size: 33px;
+}
+
+
+.app__texto1 p {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.app__img1 {
+    height: 100%;
+}
+
+.app_txt2 {
+    text-align: end;
+}
+
+.roxo {
+    background-color: rgb(74, 74, 247);
+}
+
+@media screen and (max-width:428px) {
+    .banner__titulo {
+        margin-top: 0em;
+    }
+
+}

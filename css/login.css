@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.login {
+    margin-top: 14rem
+}
+
+.criarconta {
+    margin: 3rem 0;
+}
+
+
+.input-vazio {
+    border: 1px solid red;
+}
+
+.input-cheio {
+    border: 1px solid green;
+}
+
+.txt-verm {
+    color: red;
+}
+
+.txt-verd {
+    color: green;
+}
+
+.chk-bx:checked {
+    background-color: green;
+}

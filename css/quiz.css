@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    color: grey;
+    overflow-x: hidden;
+}
+
+.white-icon-on-hover:hover .bi {
+    color: white;
+}
+
+.quizTexto {
+    margin: 11em 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.quizTexto h2 {
+    font-size: 50px;
+}
+
+.quizTexto p {
+
+    font-size: 30px;
+}
+
+.quizTexto a {
+    width: 250px;
+    background-color: rgb(74, 74, 247);
+    padding: 1.3em;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+.hr {
+    max-width: 100%;
+    background-color: rgb(212, 212, 212);
+    height: 40px;
+    padding: 2em;
+    text-decoration: none;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.custom-on-card-text {
+    max-width: 100%;
+}
+
+
+.resps {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.resps h5 {
+    padding: 1em;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.resp b {
+    font-weight: 800;
+}
+
+.resps p {
+    margin-top: 1em;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.tudo h3 {
+    margin-top: 5em;
+    font-size: 40px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+.p1 {
+    text-align: center;
+    background-color: rgb(2, 105, 48);
+    margin: 1em 6em;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    width: 300px;
+
+}
+
+.tudo button:hover {
+    cursor: pointer;
+    background-color: rgb(1, 95, 44);
+}
+
+.btn__resps {
+    background-color: rgb(2, 105, 48);
+    color: white;
+    padding: 1em;
+    width: 250px;
+    border-radius: 12px;
+    font-weight: 600;
+    margin: 0 0 2em 0;
+}
+
+.btn__resps:hover {
+    background-color: rgb(1, 95, 44);
+}
+
+.bold__cor {
+    color: red;
+}
+
+.amarelo {
+    color: rgb(238, 214, 4);
+}
+
+.verde {
+    color: rgb(3, 167, 3)
+}
+
+.vermelho {
+    color: red;
+}
+
+@media screen and (max-width:428px) {
+    .tudo h3 {
+        width: 380px;
+        font-size: 20px;
+    }
+}

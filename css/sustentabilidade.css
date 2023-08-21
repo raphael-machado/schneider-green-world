@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    color: grey;
+    overflow-x: hidden;
+}
+
+.white-icon-on-hover:hover .bi {
+    color: white;
+}
+
+.susten {
+    margin: 2em 0;
+    padding: 2em;
+    text-align: center;
+    background-color: white;
+}
+
+.susten h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.susten p {
+    margin-top: 1em;
+    font-size: 25px;
+}
+
+.hr {
+    background-color: rgb(212, 212, 212);
+    height: 40px;
+    padding: 2em;
+    text-decoration: none;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+.sustenDicas__boxs {
+    background-color: rgba(243, 243, 243, 0.849);
+    border: 1px solid rgb(212, 212, 212);
+}
